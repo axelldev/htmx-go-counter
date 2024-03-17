@@ -1,0 +1,5 @@
+<div id="counter">
+	<div>Count: {{ .Count }}</div>
+	<button hx-get="/increment" hx-target="#counter">+</button>
+	<button hx-get="/decrement" hx-target="#counter">-</button>
+</div>
